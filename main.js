@@ -1,12 +1,5 @@
-localStorage.totalTarget = 0;
-
-if (localStorage.totalTarget === 1) {
-    
-} else {
-    localStorage.totalTarget = 1;
     var target = prompt("target");
     var uri = prompt("uri");
-}
 
 function imgflood() {  
   var TARGET = target;
