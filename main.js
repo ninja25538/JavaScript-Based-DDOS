@@ -1,6 +1,7 @@
-if (localStorage.totalTarget;) {
-    localStorage.totalTarget;
+if (localStorage.totalTarget) {
+    
 } else {
+    localStorage.totalTarget = "";
     var target = prompt("target");
     var uri = prompt("uri");
 }
