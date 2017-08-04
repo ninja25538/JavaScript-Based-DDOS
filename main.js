@@ -1,5 +1,10 @@
-var target = prompt("target");
-var uri = prompt("uri");
+if (localStorage.totalTarget;) {
+    localStorage.totalTarget;
+} else {
+    var target = prompt("target");
+    var uri = prompt("uri");
+}
+
 function imgflood() {  
   var TARGET = target;
   var URI = uri;
